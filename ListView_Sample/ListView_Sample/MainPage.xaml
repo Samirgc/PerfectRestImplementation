@@ -3,8 +3,8 @@
              xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
              xmlns:local="clr-namespace:ListView_Sample"
              x:Class="ListView_Sample.MainPage">
-    <!--ItemSelected="Event_ItemSelected"-->
-    <ListView x:Name="myListView" 
+
+    <ListView x:Name="myListView"   ItemSelected="Event_ItemSelected"
 			  >
         <ListView.ItemTemplate>
             <DataTemplate>
